@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/france"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/number"
+            android:text="@string/one"/>
+
+        <TextView
+            style="@style/question"
+            android:text="@string/question1"/>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/separator"/>
+
+        <LinearLayout
+            style="@style/answer_layout">
+
+            <CheckBox
+                style="@style/myCheckbox"
+                android:id="@+id/checkbox1a"/>
+            <TextView
+                style="@style/answer"
+                android:text="@string/answer1a"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/answer_layout">
+
+
+            <CheckBox
+                style="@style/myCheckbox"
+                android:id="@+id/checkbox1b" />
+            <TextView
+                style="@style/answer"
+                android:text="@string/answer1b"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/answer_layout">
+
+             <CheckBox
+                style="@style/myCheckbox"
+                android:id="@+id/checkbox1c" />
+            <TextView
+                style="@style/answer"
+                android:text="@string/answer1c"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/answer_layout">
+
+            <CheckBox
+                style="@style/myCheckbox"
+                android:id="@+id/checkbox1d"
+                tools:checked="true"/>
+            <TextView
+                style="@style/answer"
+                android:text="@string/answer1d"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="16dp"
+            android:src="@drawable/hungary"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/number"
+                android:text="@string/one"/>
+
+            <TextView
+                style="@style/question"
+                android:text="@string/question1"/>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/separator"/>
+
+        <LinearLayout
+            style="@style/answer_layout">
+
+            <CheckBox
+                style="@style/myCheckbox"
+                android:id="@+id/checkbox2a"/>
+            <TextView
+                style="@style/answer"
+                android:text="@string/answer2a"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/answer_layout">
+
+
+            <CheckBox
+                style="@style/myCheckbox"
+                android:id="@+id/checkbox2b" />
+            <TextView
+                style="@style/answer"
+                android:text="@string/answer2b"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/answer_layout">
+
+            <CheckBox
+                style="@style/myCheckbox"
+                android:id="@+id/checkbox2c" />
+            <TextView
+                style="@style/answer"
+                android:text="@string/answer2c"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/answer_layout">
+
+            <CheckBox
+                style="@style/myCheckbox"
+                android:id="@+id/checkbox2d"
+                tools:checked="true"/>
+            <TextView
+                style="@style/answer"
+                android:text="@string/answer2d"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textAllCaps="true"
+            android:text="@string/submit"
+            android:textColor="@android:color/white"
+            android:background="@color/primary_light"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
