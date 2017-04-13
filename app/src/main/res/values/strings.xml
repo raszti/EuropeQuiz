@@ -10,34 +10,35 @@
 
     <string name="two">2</string>
     <string name="question2">What is the capital city of Hungary?</string>
-    <string name="answer2a">Notre Dame</string>
-    <string name="answer2b">Eiffel Tower</string>
-    <string name="answer2c">The Mona Lisa</string>
-    <string name="answer2d">The Colosseum</string>
+    <string name="answer2a">Bucarest</string>
+    <string name="answer2b">Bratislava</string>
+    <string name="answer2c">Budapest</string>
+    <string name="answer2d">Vienna</string>
 
     <string name="three">3</string>
     <string name="question3">What is the portuguese city, Porto well known for?</string>
-    <string name="answer4a">Notre Dame</string>
-    <string name="answer4b">Eiffel Tower</string>
-    <string name="answer4c">The Mona Lisa</string>
-    <string name="answer4d">The Colosseum</string>
+    <string name="answer3a">Porto glacier</string>
+    <string name="answer3b">Porto gold mine </string>
+    <string name="answer3c">Porto cricet team</string>
+    <string name="answer3d">Porto wine</string>
 
     <string name="four">4</string>
-    <string name="question4">What is the "El Clasico" ?</string>
-    <string name="answer3a">Notre Dame</string>
-    <string name="answer3b">Eiffel Tower</string>
-    <string name="answer3c">The Mona Lisa</string>
-    <string name="answer3d">The Colosseum</string>
+    <string name="question4">What is "El Clasico" ?</string>
+    <string name="answer4a">The match between Barcelona and Real Madrid</string>
+    <string name="answer4b">Name of a western hero</string>
+    <string name="answer4c">A chess move</string>
+    <string name="answer4d">Traditional fish soup</string>
 
     <string name="five">5</string>
-    <string name="question5">The hometown of the most popular music band (Beatles) in history is...</string>
+    <string name="question5">Which of the following companies are based in Sweden?</string>
+    <string name="answer5a">IKEA</string>
+    <string name="answer5b">Coca Cola</string>
+    <string name="answer5c">Ericsson</string>
+    <string name="answer5d">Volvo</string>
 
     <string name="six">6</string>
-    <string name="question6">Which of the following companies are based in Sweden?</string>
-    <string name="answer6a">Notre Dame</string>
-    <string name="answer6b">Eiffel Tower</string>
-    <string name="answer6c">The Mona Lisa</string>
-    <string name="answer6d">The Colosseum</string>
+    <string name="question6">The hometown of the most popular music band (Beatles) in history is...</string>
+    <string name="answer6">Liverpool</string>
 
     <string name="submit">Submit Quiz</string>
 
