@@ -17,9 +17,9 @@
 
     <string name="three">3</string>
     <string name="question3">What is the portuguese city, Porto well known for?</string>
-    <string name="answer3a">Porto glacier</string>
-    <string name="answer3b">Porto gold mine </string>
-    <string name="answer3c">Porto cricet team</string>
+    <string name="answer3a">Dom Luis bridge designed by Gustave Eiffel</string>
+    <string name="answer3b">Aztec churches hidden in a near jungle </string>
+    <string name="answer3c">Their legendary cricket team</string>
     <string name="answer3d">Porto wine</string>
 
     <string name="four">4</string>
@@ -41,5 +41,14 @@
     <string name="answer6">Liverpool</string>
 
     <string name="submit">Submit Quiz</string>
+    <string name="tryagain">Try again!</string>
+
+    <string name="result">Your made a total of</string>
+    <string name="points">points!</string>
+
+    <string name="bad">Come on, you can do it better!</string>
+    <string name="okay">You are doing good, lets try it once again!</string>
+    <string name="good">You did it very good, want to try to make it perfect?</string>
+    <string name="perfect">Wow, you were absolutely perfect!</string>
 
 </resources>

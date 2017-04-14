@@ -76,7 +76,7 @@
 
             <TextView
                 style="@style/question"
-                android:text="@string/question1"/>
+                android:text="@string/question2"/>
 
         </LinearLayout>
 
@@ -84,29 +84,29 @@
             style="@style/separator"/>
 
         <RadioGroup
+            android:id="@+id/radiogroup2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <RadioButton
                 style="@style/myCheckbox"
-                android:id="@+id/checkbox2a"
-                android:text="@string/answer2a"
-                android:textColor="@color/secondary_text" />
+                android:id="@+id/radio2a"
+                android:text="@string/answer2a"/>
 
             <RadioButton
                 style="@style/myCheckbox"
-                android:id="@+id/checkbox2b"
+                android:id="@+id/radio2b"
                 android:text="@string/answer2b"/>
 
 
             <RadioButton
                 style="@style/myCheckbox"
-                android:id="@+id/checkbox2c"
+                android:id="@+id/radio2c"
                 android:text="@string/answer2c"/>
 
             <RadioButton
                 style="@style/myCheckbox"
-                android:id="@+id/checkbox2d"
+                android:id="@+id/radio2d"
                 android:text="@string/answer2d"/>
 
         </RadioGroup>
@@ -135,32 +135,26 @@
         <TextView
             style="@style/separator"/>
 
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <CheckBox
+            style="@style/myCheckbox"
+            android:id="@+id/checkbox3a"
+            android:text="@string/answer3a"/>
 
-            <RadioButton
-                style="@style/myCheckbox"
-                android:id="@+id/checkbox3a"
-                android:text="@string/answer3a"/>
-
-            <RadioButton
-                style="@style/myCheckbox"
-                android:id="@+id/checkbox3b"
-                android:text="@string/answer3b"/>
+        <CheckBox
+            style="@style/myCheckbox"
+            android:id="@+id/checkbox3b"
+            android:text="@string/answer3b"/>
 
 
-            <RadioButton
-                style="@style/myCheckbox"
-                android:id="@+id/checkbox3c"
-                android:text="@string/answer3c"/>
+        <CheckBox
+            style="@style/myCheckbox"
+            android:id="@+id/checkbox3c"
+            android:text="@string/answer3c"/>
 
-            <RadioButton
-                style="@style/myCheckbox"
-                android:id="@+id/checkbox3d"
-                android:text="@string/answer3d"/>
-
-        </RadioGroup>
+        <CheckBox
+            style="@style/myCheckbox"
+            android:id="@+id/checkbox3d"
+            android:text="@string/answer3d"/>
 
         <ImageView
             android:layout_marginTop="20dp"
@@ -186,25 +180,33 @@
         <TextView
             style="@style/separator"/>
 
-        <CheckBox
+    <RadioGroup
+        android:id="@+id/radiogroup4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
             style="@style/myCheckbox"
-            android:id="@+id/checkbox4a"
+            android:id="@+id/radio4a"
             android:text="@string/answer4a"/>
 
-        <CheckBox
+        <RadioButton
             style="@style/myCheckbox"
-            android:id="@+id/checkbox4b"
+            android:id="@+id/radio4b"
             android:text="@string/answer4b"/>
 
-        <CheckBox
+        <RadioButton
             style="@style/myCheckbox"
-            android:id="@+id/checkbox4c"
+            android:id="@+id/radio4c"
             android:text="@string/answer4c"/>
 
-        <CheckBox
+        <RadioButton
             style="@style/myCheckbox"
-            android:id="@+id/checkbox4d"
+            android:id="@+id/radio4d"
             android:text="@string/answer4d"/>
+
+    </RadioGroup>
+
 
         <ImageView
             android:layout_marginTop="20dp"
@@ -275,6 +277,7 @@
             style="@style/separator"/>
 
         <EditText
+            android:id="@+id/edit6"
             android:paddingTop="16dp"
             android:layout_marginBottom="48dp"
             android:layout_marginLeft="16dp"
