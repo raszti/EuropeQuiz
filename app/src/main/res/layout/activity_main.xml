@@ -1,70 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <ImageView
-            android:src="@drawable/france"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:scaleType="fitXY"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        <TextView
-            style="@style/number"
-            android:text="@string/one"/>
-
-        <TextView
-            style="@style/question"
-            android:text="@string/question1"/>
-
-        </LinearLayout>
-
-        <TextView
-            style="@style/separator"/>
-
-        <CheckBox
-            style="@style/myCheckbox"
-            android:id="@+id/checkbox1a"
-            android:text="@string/answer1a"/>
-
-        <CheckBox
-            style="@style/myCheckbox"
-            android:id="@+id/checkbox1b"
-            android:text="@string/answer1b"/>
-
-         <CheckBox
-            style="@style/myCheckbox"
-            android:id="@+id/checkbox1c"
-            android:text="@string/answer1c"/>
-
-        <CheckBox
-            style="@style/myCheckbox"
-            android:id="@+id/checkbox1d"
-            android:text="@string/answer1d"/>
-
-        <ImageView
-            android:layout_marginTop="20dp"
-            android:src="@drawable/hungary"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitXY"
+            android:src="@drawable/france" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,16 +22,58 @@
 
             <TextView
                 style="@style/number"
-                android:text="@string/two"/>
+                android:text="@string/one" />
 
             <TextView
                 style="@style/question"
-                android:text="@string/question2"/>
+                android:text="@string/question1" />
 
         </LinearLayout>
 
-        <TextView
-            style="@style/separator"/>
+        <TextView style="@style/separator" />
+
+        <CheckBox
+            android:id="@+id/checkbox1a"
+            style="@style/myCheckbox"
+            android:text="@string/answer1a" />
+
+        <CheckBox
+            android:id="@+id/checkbox1b"
+            style="@style/myCheckbox"
+            android:text="@string/answer1b" />
+
+        <CheckBox
+            android:id="@+id/checkbox1c"
+            style="@style/myCheckbox"
+            android:text="@string/answer1c" />
+
+        <CheckBox
+            android:id="@+id/checkbox1d"
+            style="@style/myCheckbox"
+            android:text="@string/answer1d" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hungary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/number"
+                android:text="@string/two" />
+
+            <TextView
+                style="@style/question"
+                android:text="@string/question2" />
+
+        </LinearLayout>
+
+        <TextView style="@style/separator" />
 
         <RadioGroup
             android:id="@+id/radiogroup2"
@@ -89,34 +81,34 @@
             android:layout_height="wrap_content">
 
             <RadioButton
-                style="@style/myCheckbox"
                 android:id="@+id/radio2a"
-                android:text="@string/answer2a"/>
+                style="@style/myCheckbox"
+                android:text="@string/answer2a" />
 
             <RadioButton
-                style="@style/myCheckbox"
                 android:id="@+id/radio2b"
-                android:text="@string/answer2b"/>
+                style="@style/myCheckbox"
+                android:text="@string/answer2b" />
 
 
             <RadioButton
-                style="@style/myCheckbox"
                 android:id="@+id/radio2c"
-                android:text="@string/answer2c"/>
+                style="@style/myCheckbox"
+                android:text="@string/answer2c" />
 
             <RadioButton
-                style="@style/myCheckbox"
                 android:id="@+id/radio2d"
-                android:text="@string/answer2d"/>
+                style="@style/myCheckbox"
+                android:text="@string/answer2d" />
 
         </RadioGroup>
 
         <ImageView
-            android:layout_marginTop="20dp"
-            android:src="@drawable/portugal"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:scaleType="fitXY"/>
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/portugal" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -124,44 +116,43 @@
 
             <TextView
                 style="@style/number"
-                android:text="@string/three"/>
+                android:text="@string/three" />
 
             <TextView
                 style="@style/question"
-                android:text="@string/question3"/>
+                android:text="@string/question3" />
 
         </LinearLayout>
 
-        <TextView
-            style="@style/separator"/>
+        <TextView style="@style/separator" />
 
         <CheckBox
-            style="@style/myCheckbox"
             android:id="@+id/checkbox3a"
-            android:text="@string/answer3a"/>
+            style="@style/myCheckbox"
+            android:text="@string/answer3a" />
 
         <CheckBox
-            style="@style/myCheckbox"
             android:id="@+id/checkbox3b"
-            android:text="@string/answer3b"/>
+            style="@style/myCheckbox"
+            android:text="@string/answer3b" />
 
 
         <CheckBox
-            style="@style/myCheckbox"
             android:id="@+id/checkbox3c"
-            android:text="@string/answer3c"/>
+            style="@style/myCheckbox"
+            android:text="@string/answer3c" />
 
         <CheckBox
-            style="@style/myCheckbox"
             android:id="@+id/checkbox3d"
-            android:text="@string/answer3d"/>
+            style="@style/myCheckbox"
+            android:text="@string/answer3d" />
 
         <ImageView
-            android:layout_marginTop="20dp"
-            android:src="@drawable/spain"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:scaleType="fitXY"/>
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/spain" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -169,51 +160,50 @@
 
             <TextView
                 style="@style/number"
-                android:text="@string/four"/>
+                android:text="@string/four" />
 
             <TextView
                 style="@style/question"
-                android:text="@string/question4"/>
+                android:text="@string/question4" />
 
         </LinearLayout>
 
-        <TextView
-            style="@style/separator"/>
+        <TextView style="@style/separator" />
 
-    <RadioGroup
-        android:id="@+id/radiogroup4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/radiogroup4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <RadioButton
-            style="@style/myCheckbox"
-            android:id="@+id/radio4a"
-            android:text="@string/answer4a"/>
+            <RadioButton
+                android:id="@+id/radio4a"
+                style="@style/myCheckbox"
+                android:text="@string/answer4a" />
 
-        <RadioButton
-            style="@style/myCheckbox"
-            android:id="@+id/radio4b"
-            android:text="@string/answer4b"/>
+            <RadioButton
+                android:id="@+id/radio4b"
+                style="@style/myCheckbox"
+                android:text="@string/answer4b" />
 
-        <RadioButton
-            style="@style/myCheckbox"
-            android:id="@+id/radio4c"
-            android:text="@string/answer4c"/>
+            <RadioButton
+                android:id="@+id/radio4c"
+                style="@style/myCheckbox"
+                android:text="@string/answer4c" />
 
-        <RadioButton
-            style="@style/myCheckbox"
-            android:id="@+id/radio4d"
-            android:text="@string/answer4d"/>
+            <RadioButton
+                android:id="@+id/radio4d"
+                style="@style/myCheckbox"
+                android:text="@string/answer4d" />
 
-    </RadioGroup>
+        </RadioGroup>
 
 
         <ImageView
-            android:layout_marginTop="20dp"
-            android:src="@drawable/sweden"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:scaleType="fitXY"/>
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sweden" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -221,43 +211,42 @@
 
             <TextView
                 style="@style/number"
-                android:text="@string/five"/>
+                android:text="@string/five" />
 
             <TextView
                 style="@style/question"
-                android:text="@string/question5"/>
+                android:text="@string/question5" />
 
         </LinearLayout>
 
-        <TextView
-            style="@style/separator"/>
+        <TextView style="@style/separator" />
 
         <CheckBox
-            style="@style/myCheckbox"
             android:id="@+id/checkbox5a"
-            android:text="@string/answer5a"/>
+            style="@style/myCheckbox"
+            android:text="@string/answer5a" />
 
         <CheckBox
-            style="@style/myCheckbox"
             android:id="@+id/checkbox5b"
-            android:text="@string/answer5b"/>
+            style="@style/myCheckbox"
+            android:text="@string/answer5b" />
 
         <CheckBox
-            style="@style/myCheckbox"
             android:id="@+id/checkbox5c"
-            android:text="@string/answer5c"/>
+            style="@style/myCheckbox"
+            android:text="@string/answer5c" />
 
         <CheckBox
-            style="@style/myCheckbox"
             android:id="@+id/checkbox5d"
-            android:text="@string/answer5d"/>
+            style="@style/myCheckbox"
+            android:text="@string/answer5d" />
 
         <ImageView
-            android:layout_marginTop="20dp"
-            android:src="@drawable/unitedkingdom"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:scaleType="fitXY"/>
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/unitedkingdom" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -265,38 +254,34 @@
 
             <TextView
                 style="@style/number"
-                android:text="@string/six"/>
+                android:text="@string/six" />
 
             <TextView
                 style="@style/question"
-                android:text="@string/question6"/>
+                android:text="@string/question6" />
 
         </LinearLayout>
 
-        <TextView
-            style="@style/separator"/>
+        <TextView style="@style/separator" />
 
         <EditText
             android:id="@+id/edit6"
-            android:paddingTop="16dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="48dp"
             android:layout_marginLeft="16dp"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content" />
+            android:paddingTop="16dp" />
 
         <Button
             android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-            android:textAllCaps="true"
+            android:background="@color/primary_light"
             android:text="@string/submit"
-            android:textColor="@android:color/white"
-            android:background="@color/primary_light"/>
-
+            android:textAllCaps="true"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
-    </ScrollView>
-
-</LinearLayout>
+</ScrollView>
